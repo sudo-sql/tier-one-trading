@@ -1,0 +1,63 @@
+# Copy this file to config.yaml and fill in your own values.
+# (config.yaml is gitignored so secrets never reach GitHub.)
+
+universe:
+  max_price: 5.00
+  min_price: 0.25
+  exchanges: [NASDAQ, NYSE, AMEX]
+  min_avg_dollar_volume: 500000
+  max_spread_pct: 1.0
+  scan_top_n: 60
+
+strategy:
+  net_target_pct_min: 3.0
+  net_target_pct_max: 5.0
+  stop_loss_pct: 2.5
+  rsi_period: 14
+  rsi_oversold: 30
+  vwap_discount_pct: 1.0
+  breakout_lookback_bars: 30
+  volume_surge_ratio: 2.0
+  bar_interval: 5m
+  cooldown_minutes: 90
+
+costs:
+  slippage_pct: 0.25
+  spread_cost: half
+  sec_fee_per_million: 27.80
+  finra_taf_per_share: 0.000166
+  commission_per_trade: 0.0
+
+sizing:
+  capital_per_trade: 100
+  max_open_positions: 3
+
+sessions:
+  premarket:  { start: "07:00", end: "09:30" }
+  regular:    { start: "09:30", end: "16:00" }
+  afterhours: { start: "16:00", end: "20:00" }
+  scan_interval_seconds: 300
+  extended_hours_scan_interval_seconds: 600
+
+telegram:
+  bot_token: ""
+  admin_chat_id: ""
+
+web:
+  enabled: false
+  host: 0.0.0.0
+  port: 8321
+  secret_key: "change-me-to-something-random"
+
+execution:
+  auto_trade: false
+  dry_run: true
+  broker: robinhood
+  extended_hours_orders: true
+  robinhood: { username: "", password: "" }
+  webull: { email: "", password: "", trade_pin: "" }
+
+logging:
+  trade_log_csv: trades.csv
+  signal_log_csv: signals.csv
+  level: INFO

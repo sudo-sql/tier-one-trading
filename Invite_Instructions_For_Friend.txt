@@ -1,0 +1,51 @@
+HOW TO GET TIERONE TRADING ALERTS ON TELEGRAM
+==============================================
+
+You've been invited to receive live stock trading signals (buy and
+sell alerts) through Telegram. Setup takes about 2 minutes and it's
+free. Alerts arrive automatically from 7:00 AM to 8:00 PM Eastern
+on trading days.
+
+WHAT YOU NEED
+-------------
+1. The Telegram app (free) - App Store or Google Play
+2. The bot name:    @BOT_USERNAME_HERE
+3. Your invite code: CODE_HERE
+
+STEPS
+-----
+1. Install Telegram and create an account if you don't have one.
+
+2. Tap the search icon (magnifying glass) at the top and type:
+
+      @BOT_USERNAME_HERE
+
+   Open it.
+
+3. In the message box, type this exactly (one space between):
+
+      /start CODE_HERE
+
+   and hit send.
+
+4. The bot replies "You're in!" - done. Alerts now arrive in this
+   chat automatically. Nothing else to install or run.
+
+READING AN ALERT
+----------------
+Each buy alert shows:
+  BUY ENTRY  - the exact price to buy at (use a LIMIT order)
+  SELL ENTRY - the exact price to sell at for the profit target
+  Stop loss  - the bail-out price that caps the loss
+  Size       - suggested number of shares
+
+Fees and slippage are already baked into those numbers. You'll also
+get a follow-up alert when a target or stop is hit.
+
+NOTES
+-----
+- Your invite code works exactly once. If it's rejected, ask me for
+  a fresh one.
+- To stop receiving alerts at any time, send the bot: /stop
+- These are signals, not financial advice. Trade only what you're
+  comfortable with - some signals will lose; the stop loss caps it.

@@ -1,0 +1,17 @@
+# --- secrets & private data: NEVER commit these ---
+config.yaml
+subscribers.json
+invites.json
+web_users.json
+web_invites.json
+notifications.jsonl
+signals.csv
+trades.csv
+universe_cache.json
+*.pickle
+
+# build junk
+__pycache__/
+build/
+dist/
+*.spec

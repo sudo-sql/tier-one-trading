@@ -1,0 +1,8 @@
+pyyaml>=6.0
+requests>=2.31
+pandas>=2.0
+yfinance>=0.2.40
+flask>=3.0
+# --- only needed if you enable auto-trading ---
+# robin_stocks>=3.1
+# webull>=0.6
